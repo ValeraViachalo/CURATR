@@ -1,0 +1,46 @@
+.hero {
+  width: 100vw;
+  height: 120lvh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, #1f1f1f 90%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    z-index: 0;
+  }
+
+  &__card {
+    position: relative;
+    z-index: 10;
+    width: 30vw;
+    height: 90lvh;
+    margin-top: 40vw;
+    background-color: #fffefe;
+    color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .logo {
+      width: 60%;
+    }
+  }
+
+  &__title {
+    font-weight: 200;
+    text-align: center;
+    font-size: 3vw;
+  }
+}

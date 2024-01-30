@@ -1,0 +1,94 @@
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-family: ABC Favorit, sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin: 0 auto;
+    
+
+    // &::before {
+    //   content: "(";
+    //   font-family: 'Times New Roman', Times, serif;
+    //   font-style: italic;
+    // }
+
+    // &::after {
+    //   content: ")";
+    //   font-family: 'Times New Roman', Times, serif;
+    //   font-style: italic;
+    // }
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+      height: min-content !important;
+      width: 45vw !important;
+      margin: 0 auto !important;
+      position: relative;
+      z-index: 1000;
+
+      & > span {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 4vw;
+      } 
+    }
+  }
+
+  .section {
+    height: 80lvh;
+    position: relative;
+
+    &-2 {
+      height: 110lvh;
+    }
+  }
+
+  .spotter-image {
+    &-1 {
+      width: 14vw;
+      position: absolute;
+      left: 10%;
+    }
+
+    &-2 {
+      width: 12vw;
+      position: absolute;
+      right: 10%;
+    }
+  }
+
+  .matchmaker-image {
+    &-1 {
+      width: 11vw;
+      position: absolute;
+      left: 25%;
+    }
+
+    &-2 {
+      width: 32vw;
+      position: absolute;
+      right: 4%;
+    }
+  }
+
+  .facilitator-image {
+    &-1 {
+      width: 15vw;
+      position: absolute;
+      left: 6%;
+    }
+    &-2 {
+      width: 18vw;
+      position: absolute;
+      left: 50%;
+      top: 10%;
+    }
+  }
+}
