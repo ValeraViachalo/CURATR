@@ -15,22 +15,8 @@ function easeInOutExpo(x) {
     : (2 - Math.pow(2, -20 * x + 10)) / 2;
   }
 function App() {
-  
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-
-  //     const locomotiveScroll = new LocomotiveScroll({
-  //       lenisOptions: {
-  //         infinite: true
-  //       }
-  //     });
-  //   })();
-  // }, []);
-
   return (
     <ReactLenis root options={{ easing: (x) => easeInOutExpo(x)}}>
-      {/* <Pintext /> */}
       <Hero />
       <Slider />
       <Footer />

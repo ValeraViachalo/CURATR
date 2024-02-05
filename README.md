@@ -1,8 +1,17 @@
-# React + Vite
+![Readme](public/images/4ReadMe.png)
+# CURATR Paris
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Live Demo](https://curatr.vercel.app/)
+### Inspired by [CURATR Paris](https://curatr.paris/en/)
 
-Currently, two official plugins are available:
+<hr />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### "createdWith": {
+```
+"gsap": "^3.12.5",
+"framer-motion": "^11.0.3",
+"react": "^18.2.0",
+"react-dom": "^18.2.0"
+"@studio-freight/react-lenis": "^0.0.43",
+```
+###  },

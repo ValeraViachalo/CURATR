@@ -63,7 +63,6 @@ export const Slider = () => {
     xForce = lerp(xForce, 0, easing);
     yForce = lerp(yForce, 0, easing);
     if (images.current) {
-      const childrenArray = Array.from(images.current);
       gsap.set('.spotter-image-1', {
         xPercent: `+=${xForce * 0.2}`,
         yPercent: `+=${yForce * 0.5}`,
@@ -77,8 +76,11 @@ export const Slider = () => {
         yPercent: `+=${yForce * 0.3}`,
       });
       gsap.set('.matchmaker-image-2', {
-        xPercent: `+=${xForce * 0.1}`,
-        yPercent: `+=${yForce * 0.1}`,
+        xPercent: `+=${xForce * 0.05}`,
+        yPercent: `+=${yForce * 0.05}`,
+      });
+      gsap.set(title.current, {
+        xPercent: `+=${xForce * 0.01}`,
       });
     }
 
