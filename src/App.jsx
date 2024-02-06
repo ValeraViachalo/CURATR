@@ -1,5 +1,5 @@
 import ReactLenis, { useLenis } from "@studio-freight/react-lenis";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.scss";
 import { Hero } from "./hero/hero";
 import { Slider } from "./Slider/Slider";
